@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  to_do_omments: MyText
+  todo_id: 
+  user_id: 
+
+two:
+  to_do_omments: MyText
+  todo_id: 
+  user_id: 
