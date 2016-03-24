@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
   has_many :staffs
   has_many :clients
   has_many :projects
+  has_many :todos
   def self.find_first_by_auth_conditions(warden_conditions)
     conditions = warden_conditions.dup
     if login = conditions.delete(:login)
